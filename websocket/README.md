@@ -1,0 +1,1 @@
+run ```node app.js``` to start the server. The server will be running on `http://localhost:3000`.

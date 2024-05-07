@@ -1,0 +1,55 @@
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: fit-content;
+  max-width: 50%;
+  max-height: 500px;
+  border-radius: 20px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  margin-block: 5px;
+}
+
+.sent-message {
+  margin-left: auto;
+  background-color: var(--message-self-color);
+  display: flex;
+}
+
+.received-message {
+  margin-right: auto;
+  background-color: var(--message-other-color);
+  display: flex;
+}
+
+.message-text {
+  margin-inline: 10px;
+}
+
+.message-time {
+  font-size: 10px;
+  align-self: flex-end;
+}
+
+.message-sender {
+  font-size: 10px;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.chatroom-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.message-text {
+  color: var(--message-text);
+}

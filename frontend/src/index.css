@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --background-color: #FFFFFF;
+  --button-bg-color: #B8D0D6;
+  --button-border-color: #8DA6B0;
+  --button-hover-bg-color: #8DA6B0;
+  --button-hover-border-color: #8DA6B0;
+  --logo-color: #B6A7A2;
+  --profile-color: #BBBBBB;
+  --text-dark-color: #757575;
+  --text-light-color: #9D9D9D;
+  --text-lighter-color: #FFFFFF;
+  --chatbox-header-color: #F6D1BF;
+  --message-self-color: #add8e6;
+  --message-other-color: #D8D8D8;
+  --shadow: #00000066;
+  --lighter-shadow: #3a3a3a26;
+  --active-chat-color: lightgrey;
+  --line-color: #e0e0e0;
+  --navbar-icon-on-img: url("./assets/iconOn.png");
+  --navbar-icon-off-img: url("./assets/iconOff.png");
+  --error-color: rgb(216, 72, 72);
+  --chat-background-image: url("./assets/iconOff.png");
+  --friends-tab-color: lightslategray;
+  --chat-input-border:1px solid lightgray;
+  --chat-input-background:#ffffff;
+  --chat-input-color:#414141;
+
+  --scrollbar-background-color: #bdbdbd;
+  --scrollbar-track-background-color: #f8f8f8;
+    --notif-background-color: #abeedc;
+  --notif-color: #ffffff;
+
+}
+
+#root {
+  background-color: var(--background-color);
+}
+
+[data-theme = "dark"] {
+  --background-color: #515151;
+  --button-bg-color: #2c2c2c;
+  --button-border-color: #8DA6B0;
+  --button-hover-bg-color: #424242;
+  --button-hover-border-color: #8DA6B0;
+  --logo-color: #B6A7A2;
+  --profile-color: #BBBBBB;
+  --text-dark-color: #FFFFFF;
+  --text-light-color: #ADADAD;
+  --text-lighter-color: #d0d0d0;
+  --chatbox-header-color: #3b3b3b;
+  --message-self-color: #2e2e2e;
+  --message-other-color: #444444;
+  --shadow: #00000066;
+  --lighter-shadow: #46464626;
+  --active-chat-color: #757575;
+  --line-color: #757575;
+  --navbar-icon-on-img: url("./assets/iconOndark.png");
+  --navbar-icon-off-img: url("./assets/iconOffdark.png");
+  --error-color: rgb(245, 180, 180);
+  --chat-background-image: url("./assets/iconOffdark.png");
+  --bs-body-color: #e4e4e4;
+  --friends-tab-color: #828282;
+  --chat-input-border: 1px solid rgb(74, 74, 74);
+  --chat-input-background:#333;
+  --chat-input-color:#f0f0f0;
+
+  --scrollbar-background-color: #888;
+  --scrollbar-track-background-color: #4e4e4e;
+  --notif-background-color: #c7c7c7;
+  --notif-color: #495057;
+}

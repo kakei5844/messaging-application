@@ -1,0 +1,28 @@
+#ProfileCircle {
+    background-image: var(--navbar-icon-off-img);
+    background-size: cover;
+    background-position: center;
+    color: var(--text-dark-color)
+  }
+
+
+  /* Target the scrollbar track */
+  ::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  /* Target the scrollbar handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-background-color); /* Set the color of the scrollbar handle */
+    border-radius: 4px; /* Add some border radius to make it look rounded */
+  }
+  
+  /* Target the scrollbar handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the scrollbar handle on hover */
+  }
+  
+  /* Target the scrollbar track when it's in a "scrolling" state */
+  ::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-background-color); /* Set the color of the scrollbar track */
+  }

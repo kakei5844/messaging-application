@@ -1,0 +1,74 @@
+.friends-table-container {
+    border: 1px solid var(--line-color);
+    border-radius: 8px;
+    background-color: var(--background-color);
+    padding: 20px;
+    margin: 2%;
+  }
+  
+  .friends-table-header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    color: var(--text-light-color)
+  }
+  
+  .friends-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .friends-table-row {
+    border-bottom: 1px solid var(--line-color);
+  }
+  
+  .friends-table-row:last-child {
+    border-bottom: none;
+  }
+  
+  .friends-table-cell-avatar,
+  .friends-table-cell-name,
+  .friends-table-cell-action {
+    padding: 10px 0;
+  }
+  
+  .friends-table-cell-avatar {
+    width: 50px;
+  }
+  
+  .friends-table-cell-name {
+    text-align: left;
+    padding-left: 10px;
+    color: var(--text-dark-color)
+  }
+  
+  .friends-table-cell-action {
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  .friends-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .friends-message-button {
+    background-color: var(--background-color);
+    color: var(--text-dark-color);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .friends-message-button:hover {
+    background-color: var(--text-light-color);
+  }

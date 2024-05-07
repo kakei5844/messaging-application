@@ -1,0 +1,46 @@
+.friends-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+  }
+
+  .user-avatar {
+    width: 55px;
+    height: 55px;
+    color: var(--text-dark-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+ #navCircleOn {
+    background-image: var(--navbar-icon-on-img);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #navCircleOff {
+    background-image: var(--navbar-icon-off-img);
+    background-size: cover;
+    background-position: center;
+  }
+
+.icon {
+  width: 320px;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.4);
+  color: var(--text-dark-color);
+}
+
+.brand-name {
+  font-size: 14px;
+  margin-left: 15px;
+  color: var(--text-dark-color)
+}

@@ -1,0 +1,44 @@
+.chat-container {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 5px;
+  flex: 1;
+  box-shadow: -4px 4px 10px var(--shadow);
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* Hide the horizontal scrollbar */
+}
+
+.chatroom-header {
+  height: 50px;
+  font-size: 20px;
+  font-weight: 450;
+  margin-block: 10px;
+  text-align: left;
+  background-color: var(--chatbox-header-color);
+  padding-left: 5px;
+  margin-inline: 10px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.chatroom-name {
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  color: var(--text-lighter-color);
+}
+
+#sendButton {
+  height: 50px !important;
+  border: none;
+  margin-left: 20px ;
+  width: 80px;
+  --bs-btn-bg: var(--button-bg-color);
+  --bs-btn-border-color: var(--button-border-color);
+  --bs-btn-hover-bg: var(--button-hover-bg-color);
+  --bs-btn-hover-border-color: var(--button-hover-border-color);
+  color: white;
+}

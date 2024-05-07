@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+  }
+
+  .login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -150px; 
+  }
+  
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+  
+  
+  .login-box {
+    background-color: var(--background-color);
+    width: 300px;
+    padding: 20px;
+    border: 0.5px solid var(--shadow);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px var(--shadow);
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--text-dark-color);
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    
+  }
+  
+  .input-group label {
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 10px; 
+    color: var(--text-dark-color);
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: var(--button-bg-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: var(--button-hover-bg-color);
+  }
+
+  .logo-text {
+    color: var(--text-dark-color);
+  }
+
+.error-message {
+  color: var(--error-color);
+  margin-top: 10px;
+  text-align: center;
+}

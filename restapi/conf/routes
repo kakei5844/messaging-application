@@ -1,0 +1,35 @@
+# Routes
+
+# This file defines all application routes (Higher priority routes first)
+
+# https://www.playframework.com/documentation/latest/ScalaRouting
+
+# ~~~~
+
+# auth
+
+POST    /login                        controllers.UserController.login()
+
+# user
+
+GET     /user/:id                     controllers.UserController.getUser(id: Long)
+GET     /username/:id                 controllers.UserController.getUsername(id: Long)
+
+# friend
+
+GET     /friends/:id                  controllers.FriendsController.getFriends(id: Long)
+
+# Chat
+
+GET     /chat/:id                     controllers.ChatController.getChat(id: Long)
+GET     /chat/list/:id                controllers.ChatController.getChatList(id: Long)
+
+# ChatParticipant
+
+GET     /chatparticipant/chat/:id     controllers.ChatParticipantController.getChatparticipantWithChatId(id: Long)
+GET     /chatparticipant/user/:id     controllers.ChatParticipantController.getChatparticipantWithUserId(id: Long)
+
+# ChatMessage
+
+POST    /chatmessage/post             controllers.ChatMessageController.postChatMessage()
+GET     /chatmessage/:id              controllers.ChatMessageController.getChatMessageByChatId(id: Long)

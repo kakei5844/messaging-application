@@ -1,0 +1,63 @@
+.profile-container {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 5px;
+  flex: 1;
+  box-shadow: -4px 4px 10px var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header {
+  height: 10%;
+  font-size: 30px;
+  font-weight: 450;
+  margin-bottom: 5px;
+  text-align: left;
+  color: var(--text-dark-color);
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.profile-main {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-name {
+  font-size: 34px;
+  color: var(--text-light-color);
+  font-weight: 500;
+}
+
+.profile-username {
+  font-size: 16px;
+  color: var(--text-light-color);
+  font-weight: 500;
+}
+
+.profile-line-break {
+  height: 1px;
+  width: 300px;
+  font-weight: 100;
+  background-color: var(--line-color);
+  margin: 3px 0;
+}
+
+.profile-email,
+.profile-friend {
+  font-size: 18px;
+  color: var(--text-light-color);
+  font-weight: 500;
+}
+
+#UserProfileCircle {
+  background-image: var(--chat-background-image);
+  background-size: cover;
+  background-position: center;
+  color: var(--text-dark-color) !important;
+}
